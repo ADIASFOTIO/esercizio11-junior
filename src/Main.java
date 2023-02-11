@@ -25,6 +25,7 @@ public class Main {
         nego1.addNewlibro(lib1);
         nego1.addNewlibro(lib2);
         dv1.getCosto();
+        dv2.getCosto()
         ////
 
 
