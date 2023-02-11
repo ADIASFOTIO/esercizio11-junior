@@ -24,6 +24,7 @@ public class Main {
         System.out.println(nego1.getCodiceNegozio());
         nego1.addNewlibro(lib1);
         nego1.addNewlibro(lib2);
+        dv1.getCosto();
         ////
 
 
