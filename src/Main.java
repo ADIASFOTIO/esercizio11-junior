@@ -22,8 +22,6 @@ public class Main {
         System.out.println(isSup(lib1.getCosto()));
         Negozio nego1 = new Negozio("adias negozio", "001");
         System.out.println(nego1.getCodiceNegozio());
-        nego1.addNewlibro(lib1);
-        nego1.addNewlibro(lib2);
 
         ////
 
