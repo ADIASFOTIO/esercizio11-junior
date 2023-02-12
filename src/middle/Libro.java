@@ -8,8 +8,7 @@ public class Libro {
     private double costo;
     private int pagine;
     boolean aBoolean;
-    public Libro(String ISBN, String titolo, double peso, double durata){
-
+    public Libro(){
     }
     public Libro(String ISBN, String titolo, String categoria, double peso, double costo,int pagine) {
         this.ISBN = ISBN;
