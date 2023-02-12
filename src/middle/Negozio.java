@@ -120,23 +120,26 @@ public class Negozio {
         c = rachettaDaPadelscostoso(rachettaDaPadels);
         double a1 = a.getCosto();
         double a2 = b.getCosto();
-
-
-
-
-
+        double a3 = c.getCosto();
+        double z = Math.max(Math.max(a1,a2),a3);
+        if ( z == a1){
+            System.out.println("prodotto più costoso è un libro");
+            System.out.println(a.getPeso() + " " + a.getCosto() +" " + a.getPagine() +" " + a.getISBN() + " " + a.getTitolo() +" " + a.getCategoria());
+        }
+        if (z == a2){
+            System.out.println("il prodotto più costoso è un dvd");
+            System.out.println(b.getCategoria() +" " + b.getCosto() + " " + b.getDurata() +" "+  b.getPeso());
+        }
+        if (z == a3){
+            System.out.println("il prodotto più costoso è una rachetta");
+            System.out.println(c.getCosto() +" "+  c.getPeso() +" "+ c.getMarca());
+        }
     }
 
 
 
-
-
-
-
-
-
 }
 
 
 
-}
+

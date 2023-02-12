@@ -42,6 +42,7 @@ public class Main {
         System.out.println(num);
         double pesotot = negozio1.pesoTotal(libri,dvds,rachettaDaPadels);
         System.out.println(pesotot);
+        negozio1.proDotCostoso(libri,dvds,rachettaDaPadels);
 
 
 
