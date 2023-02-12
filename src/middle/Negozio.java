@@ -120,7 +120,8 @@ public class Negozio {
         c = rachettaDaPadelscostoso(rachettaDaPadels);
         double a1 = a.getCosto();
         double a2 = b.getCosto();
-        double a3 = c.getCosto();
+
+
 
 
 
